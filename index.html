@@ -820,7 +820,7 @@ function syncPager(){
     if(atEnd){next.innerHTML='The End';}
     else{
       var nextFam=fams[idx+1];
-      var famLabels={toc:'Contents',intro:'Introduction','1':'Chapter One','2':'Chapter Two','3':'Chapter Three','4':'Chapter Four','5':'Chapter Five','6':'Chapter Six','7':'Chapter Seven',conclusion:'Conclusion',end:'End'};
+      var famLabels={toc:'Next',intro:'Introduction','1':'Chapter One','2':'Chapter Two','3':'Chapter Three','4':'Chapter Four','5':'Chapter Five','6':'Chapter Six','7':'Chapter Seven',conclusion:'Conclusion',end:'End'};
       var label=famLabels[nextFam]||'Next';
       next.innerHTML=label+' &#8594;';
     }
